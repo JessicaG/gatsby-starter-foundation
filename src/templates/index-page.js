@@ -73,8 +73,6 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark, posts } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
- 
-
   return (
     <Layout>
       <Seo />
@@ -105,26 +103,8 @@ const HomePage = ({ data }) => {
               <RiArrowRightSLine />
             </span>
           </Link>
-          <div
-            className="social-icons"
-            sx={{
-              variant: "variants.socialIcons",
-            }}
-          >
-            {sIcons}
-          </div>
         </div>
-        <div>
-          {Image ? (
-            <GatsbyImage
-              image={Image}
-              alt={frontmatter.title + " - Featured image"}
-              className="featured-image"
-            />
-          ) : (
-            ""
-          )}
-        </div>
+       
       </div>
       <BlogListHome data={posts} />
     </Layout>
