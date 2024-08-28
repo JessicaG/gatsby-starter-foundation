@@ -77,7 +77,7 @@ const HomePage = ({ data }) => {
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
   
-  })
+  }
   return (
     <Layout>
       <Seo />
