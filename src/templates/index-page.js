@@ -78,6 +78,9 @@ const HomePage = ({ data }) => {
       <Seo />
       <div className="home-banner grids col-1 sm-2">
         <div>
+    <iframe src="https://my.atlist.com/map/0051e71a-db8c-4976-beff-fb36acf27caa/?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="700px" loading="lazy" frameborder="0" scrolling="no" allowfullscreen id="atlist-embed"></iframe>
+
+
           <h1 className="title">{frontmatter.title}</h1>
           <p
             className="tagline"
