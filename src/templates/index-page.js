@@ -76,7 +76,7 @@ const HomePage = ({ data }) => {
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
-  
+  </div>
   }
   return (
     <Layout>
