@@ -1,12 +1,12 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
+title: High Five Supper Club
+tagline: Your go-to friend for food and drink
 featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
 cta:
-  ctaText: Know more
-  ctaLink: /about
+  ctaText: Suggest a place for us to go
+  ctaLink: /contact
 ---
 
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+High Five Supper Club is curated by food and drink enthusiasts, with the goal of sharing what might be in your neighbourhood worth exploring. We hope you enjoy, and if you have a spot you think we should check out, let us know!
